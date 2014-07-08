@@ -1,7 +1,5 @@
 FROM ubuntu:14.04
 
-MAINTAINER Quinten Krijger "https://github.com/Krijger"
-
 ENV DEBIAN_FRONTEND noninteractive
 
 # make sure the package repository is up to date and update ubuntu
