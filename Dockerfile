@@ -8,7 +8,8 @@ RUN \
   apt-get update && \
   apt-get -y upgrade && \
   locale-gen en_US.UTF-8
-RUN apt-get install -y curl git htop man software-properties-common unzip vim wget grep
+RUN apt-get install -y curl git htop man software-properties-common unzip vim wget grep g++ libcppunit-dev make
+RUN         apt-get -y install wget pkg-config libssl-dev g++ libcppunit-dev libcurl4-openssl-dev libncurses-dev subversion make
 
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
